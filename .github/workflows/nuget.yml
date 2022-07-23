@@ -4,7 +4,7 @@
 
  env:
      PROJECT_PATH:  'vs-2019-github-user-experience/vs-2019-github-user-experience.csproj'
-     PACKAGE_OUTPUT_DIRECTORY: $ {{  github.workspace}} \output
+     PACKAGE_OUTPUT_DIRECTORY: $ {{  github.workspace}}\output
      NUGET_SOURCE_URL: 'https://api.nuget.org/v3/index.json' 
 
  jobs:
