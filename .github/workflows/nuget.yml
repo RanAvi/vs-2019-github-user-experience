@@ -3,8 +3,8 @@
  on:  ["push"]
 
  env:
-     PROJECT_PATH: "\\a\\vs-2019-github-user-experience\\vs-2019-github-user-experience.csproj"
-     PACKAGE_OUTPUT_DIRECTORY: ${{ github.workspace }}\\output
+     PROJECT_PATH: "vs-2019-github-user-experience/vs-2019-github-user-experience.csproj"
+     PACKAGE_OUTPUT_DIRECTORY: ${{ github.workspace }}
      NUGET_SOURCE_URL: 'https://api.nuget.org/v3/index.json' 
 
  jobs:
